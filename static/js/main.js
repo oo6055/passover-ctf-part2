@@ -1,1 +1,12 @@
-function _0x17d5(){var _0x4b82be=['4WvLNSO','https://tikunhaklali.co.il/wp-content/uploads/2018/02/2.png','value','49329aYBmrv','\x27\x20OR\x201=1--','good\x20job\x20your\x20next\x20challenge\x20https://github.com/oo6055/passover-ctf-part2/blob/master/riddle.txt','330vzmlqL','268FsVRXj','1652360UORxFy','13903CzctQS','981130HTFGdx','2643XhExVt','picture','1774053oSHUcY','1012448JXHViC','password_text','getElementById'];_0x17d5=function(){return _0x4b82be;};return _0x17d5();}(function(_0x3ad324,_0x555354){var _0x598085=_0x4d70,_0x4d70ce=_0x3ad324();while(!![]){try{var _0x42d033=parseInt(_0x598085(0x1a9))/0x1*(-parseInt(_0x598085(0x1a0))/0x2)+-parseInt(_0x598085(0x1ab))/0x3*(-parseInt(_0x598085(0x1a7))/0x4)+parseInt(_0x598085(0x1a8))/0x5+parseInt(_0x598085(0x1a6))/0x6*(-parseInt(_0x598085(0x1a3))/0x7)+parseInt(_0x598085(0x1ae))/0x8+parseInt(_0x598085(0x1ad))/0x9+-parseInt(_0x598085(0x1aa))/0xa;if(_0x42d033===_0x555354)break;else _0x4d70ce['push'](_0x4d70ce['shift']());}catch(_0x95e18a){_0x4d70ce['push'](_0x4d70ce['shift']());}}}(_0x17d5,0x30bf4));function _0x4d70(_0x593291,_0x44aae4){var _0x17d55f=_0x17d5();return _0x4d70=function(_0x4d704d,_0x5afda1){_0x4d704d=_0x4d704d-0x19f;var _0x4786d0=_0x17d55f[_0x4d704d];return _0x4786d0;},_0x4d70(_0x593291,_0x44aae4);}var value='not\x20logged\x20password';function myFunction(){var _0x1e4d39=_0x4d70;document[_0x1e4d39(0x19f)]('username_text')['value']==='pharoah'&&document[_0x1e4d39(0x19f)](_0x1e4d39(0x1af))[_0x1e4d39(0x1a2)]===_0x1e4d39(0x1a4)&&(value=_0x1e4d39(0x1a5),document[_0x1e4d39(0x19f)](_0x1e4d39(0x1ac))['src']=_0x1e4d39(0x1a1)),document[_0x1e4d39(0x19f)]('isloged')['innerHTML']=value;}
+var value="not logged password";//global variable  
+function myFunction() {
+    if (document.getElementById("username_text").value === "pharoah" && document.getElementById("password_text").value === "' OR 1=1--")
+        {
+            value = "good job your next challenge https://github.com/oo6055/passover-ctf-part2/blob/master/riddle.txt";
+            document.getElementById("picture").src = "https://tikunhaklali.co.il/wp-content/uploads/2018/02/2.png";
+
+        }
+        window.open( 
+            "https://www.youtube.com/watch?v=CZgDNPGZ9Sg", "_blank");
+            document.getElementById("isloged").innerHTML = value;
+	}
